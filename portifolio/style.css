@@ -1,0 +1,245 @@
+*{
+ background-color: #322d35;
+  margin: 0;
+  padding: 10;
+}
+.tudo{
+    padding: 20;
+    margin: 40px;
+}
+header {
+    background: #efe4dd;
+    display: flex;
+    justify-content: space-between; /*distribuição de maneira igualitária*/
+    align-items: center;
+    padding: 20px 40px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);/*sombra direita e embaixo*/
+}
+.logo {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #322d35;
+    background-color: transparent;
+}
+/*menu*/
+nav .nav-links { 
+    list-style: none;
+    display: flex;
+    gap: 30px; /*espaçamento*/
+    margin: 0;
+    padding: 0;
+    background-color: #efe4dd;
+}
+nav .nav-links li a {
+    list-style: none;
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+    color: #322d35;
+    font-weight: 500;
+    font-size: 1.1rem;
+    transition: color 0.2s;
+    background-color: #efe4dd;
+}
+/*estilo muda ao passar o mouse*/
+nav .nav-links li a:hover { 
+    color: #bda6af;
+}
+
+/*part1*/
+.part1{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px;
+    justify-content: center;
+    background-color: #efe4dd;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #000000;
+}
+.alinhamentext{
+  width: 600px;
+  height: 270px;
+  margin: 20px;
+  background-color: transparent;
+  display: flex;
+}
+.text{
+    align-items: center;
+    justify-content: center;
+}
+/*perfil*/
+.img{ 
+  height: auto;
+  width: 300px;
+  height: 320px;
+  margin: 10px; 
+  background-image: url(foto-de-perfil/perfiltotal.jpeg);
+  box-shadow: 8px 5px 5px #000000;
+  border: solid;
+  border-radius: 20px;
+  border-width: 3px ;
+  border-color: #7b6e73;
+  background-size: cover;
+}
+.img:hover{
+  background-image: url(foto-de-perfil/imghover.jpeg);
+}
+.titulo{
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    font-size: 50px; 
+    padding: 20px;
+    text-align: center;
+    color: #efe4dd;
+}
+/*linha horizontal*/
+.linhahoriz{ 
+    background-color: #efe4dd;
+    height: 3px;
+    border: #efe4dd;
+}
+/*subtitulo*/
+.sobrem{
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    padding: 20px;
+    font-size: 40px;
+    color: #bda6af;
+}
+.text{
+    font-family: Helvetica, sans-serif;
+    padding: 20px;
+    font-weight: 500;
+    background-color: transparent;
+    color: #322d35;
+}
+
+/*pat2*/
+/*subtitulo*/
+.projetos{
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    padding: 20px;
+    font-size: 40px;
+    color: #bda6af;
+}
+/*conteiner que guarda os projetos*/
+.part2{ 
+    display: flex;
+    flex-wrap: wrap; /*força a ficar na mesma linha*/
+    padding: 100px;
+    justify-content: center;
+    background-color: #efe4dd;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #000000;
+}
+.forma{
+  width: 400px;
+  height: 400px;
+  background-color: #bda6af;
+  margin: 30px; 
+  border-radius: 100%;
+  box-shadow: 8px 5px 5px #696969;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+}
+.forma:hover{
+    background-color: #322d35;
+}
+/*numeros de dentro das formas*/
+.num{ 
+    align-items: center;
+    background-color: transparent;
+    font-family: Gill Sans, sans-serif;
+    color:#bda6af;
+    font-size: 30px;
+}
+
+/*part3*/
+.habilid{
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    padding: 20px;
+    font-size: 40px;
+    color: #bda6af;
+}
+.part3{
+    display: flex;
+    padding: 100px;
+    justify-content: center;
+    background-color: #efe4dd;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #000000;
+}
+.lista{
+    margin: 30px;
+    background-color: #efe4dd;
+    color: #4d484f;
+}
+i{
+    background-color: transparent;
+    padding: 0 3% 0 0;
+}
+.dentlist{
+    list-style: none;
+    font-family: Helvetica, sans-serif;
+    font-size: 25px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    background-color: #efe4dd;
+}
+li{
+    cursor: default;
+    transition: color 0.2s;
+}
+li:hover{
+    color: #bda6af;
+}
+
+/*rodapé*/
+footer{
+    margin-top: 40px; /*superior, fora da borda*/
+}
+.rodape{
+    background-color: #f0f2ff;
+}
+.contat{
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    padding: 20px;
+    font-size: 40px;
+    color: #322d35;
+    text-align: center;
+    background-color: white;
+}
+.icones{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+/*link das páginas*/
+.button-link{ 
+    background-color: transparent;
+}
+.contats{
+    font-family: Helvetica, sans-serif;
+    background-color: #8b6887;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #393949;
+    margin: 30px;
+}
+.contats:hover{
+    background-color: #393949;
+}
+.icone{
+    background-color: transparent;
+}
+.icone:hover{
+    background-color: #393949;
+}

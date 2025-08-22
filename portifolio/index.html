@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portifolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="tudo">
+        <!--começar com o cabeçario dentro de "tudo" para ele ficar flutuante-->
+        <header>
+            <div class="logo">PORTIFÓLIO</div>
+            <nav>
+                <ul class="nav-links">
+                    <li class="fundo"><a href="#sobre">Sobre</a></li>
+                    <li class="fundo"><a href="#habilidades">Habilidades</a></li>
+                    <li class="fundo"><a href="#projetos">Projetos</a></li>
+                    <li class="fundo"><a href="#contatos">Contatos</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!--título da página-->
+        <h1 class="titulo">Ola! Sou a Ana Lívya,<br> venha conhecer o meu trabalho.</h1>
+        <hr class="linhahoriz"> <!--linha horizontal-->
+        <h2 id="sobre" class="sobrem">Sobre mim</h2>
+        <div class="part1"> <!--part 1 a foto de perfil e o texto; container flutuante-->
+            <div class="img"> </div>
+            <div class="alinhamentext"> <!--div para alinhar o texto ao lado da foto-->
+                <h2 class="text">Sou técnica em Desenvolvimento de Sistemas e estou em constante busca por aprimorar meus conhecimentos tanto em Back-end quanto em Front-end. Tenho grande interesse em expandir minhas habilidades na área de tecnologia e, como próximo passo, pretendo ingressar na faculdade de Ciências da Computação para aprofundar meus estudos e fortalecer minha carreira.</h2>
+            </div>
+        </div>
+        <p></p>
+        <h2 id="projetos" class="projetos">Conheça alguns dos meus projetos!</h2>
+        <p></p>
+
+        <div class="part2"> <!--part 2 div mãe(container) com 3 div filhas(forma)-->
+            <div class="forma"><div class="num">1</div></div> <!--no css todas com os mesmos valores-->
+            <div class="forma"><div class="num">2</div></div>
+            <div class="forma"><div class="num">3</div></div>
+        </div>
+
+        <h2 id="habilidades" class="habilid">Minhas Habilidades</h2>
+        <div class="part3">
+            <ul class="lista"> 
+                <li class="dentlist"><i class="fa-solid fa-laptop"></i>Desenvolvedora Web</li>
+                <li class="dentlist"><i class="fa-brands fa-python"></i>Python</li>
+                <li class="dentlist"><i class="fa-brands fa-html5"></i>HTML5</li>
+                <li class="dentlist"><i class="fa-brands fa-css3-alt"></i>CSS</li>
+                <li class="dentlist"><i class="fa-solid fa-robot"></i>Arduino IDE</li>
+                <li class="dentlist"><i class="fa-solid fa-terminal"></i>Programação Orientada a Objetos</li>
+            </ul>
+        </div>
+        <p></p>
+    </div>
+        <footer class="rodape"> <!--solto do "todo" para sair do flexível-->
+            <h2 id="contatos" class="contat"> Para mais contato</h2>
+            <div class="icones">
+                <a href="https://github.com/AnaLivyaDev" class="button-link" target="_blank">
+                    <button class="contats"><img src="icones/icons8-github-50.png" alt="icone" class="icone"></button>
+                </a> 
+           
+                <a href="https://wa.me/5585985228333" class="button-link" target="_blank">
+                    <button class="contats"><img src="icones/icons8-whatsapp-50.png" alt="icone"v class="icone"></button>
+                </a>
+    
+                <a href="https://www.linkedin.com/in/ana-l%C3%ADvya-carneiro-82a528352?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="button-link">
+                    <button class="contats"><img src="icones/icons8-linkedin-50.png" alt="icone" class="icone"></button>
+                </a>
+
+                <a href="https://www.instagram.com/analivya_zz?igsh=dDBkbjYydG53cnp0" target="_blank" class="button-link">
+                    <button class="contats"><img src="icones/icons8-instagram-50.png" alt="icone" class="icone"></button>
+                </a>
+            </div>
+        </footer>
+</body>
+</html>
